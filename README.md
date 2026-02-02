@@ -1,17 +1,25 @@
 # SysMonitor CMD
 
-**system monitor** in **Python**, running entirely in the **terminal (CMD/PowerShell)**.  
-Displays **GPU, RAM, disks, and top processes** with a interface using **Rich**.  
-Monitoring system performance in real-time without a GUI.
+**SysMonitor CMD** is a **real-time system monitor** for **Windows**, running entirely in the **terminal (CMD or PowerShell)**.  
+It displays detailed information about **GPU, RAM, disks, and top processes**, using **Rich** for an elegant and interactive interface — **no GUI required**.
 
 ---
 
-## **Prerequisites**
+## 🔹 Features
 
-1. **Python 3.10+** installed
-2. **Windows** (requires `nvidia-smi` for GPU monitoring)  
-3. Python libraries:
+- **Real-time monitoring** of CPU, RAM, and disks.  
+- Displays the **top resource-consuming applications**.  
+- Supports **NVIDIA GPUs** via `nvidia-smi`.  
+- Colorful, interactive terminal interface powered by **Rich**.  
+- Lightweight, fast, and fully **terminal-friendly**.
+
+---
+
+## 🔹 Prerequisites
+
+1. **Python 3.10+**  
+2. **Windows** (GPU monitoring requires `nvidia-smi`)  
+3. Required Python libraries:
 
 ```bash
 pip install psutil rich
-
